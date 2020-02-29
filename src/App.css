@@ -2,6 +2,42 @@
   text-align: center;
 }
 
+img {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+img:hover {
+  height: 130px;
+  width: 130px;
+}
+
+.weaterHeader {
+  color: blue;
+  font-size: 14pt;
+  font-weight: 500;
+  background-color: white !important;
+}
+
+._5Day {
+  color: red;
+  font-size: 14pt;
+  font-weight: 500;
+  background-color: white !important;
+}
+p {
+  margin: 0;
+}
+p:hover {
+  background-color: grey;
+  font-size: 16pt;
+}
+p:nth-of-type(2n + 1) {
+  background-color: #F2F2F2;
+}
+p:nth-of-type(2n) {
+  background-color: #E6E6E6;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
